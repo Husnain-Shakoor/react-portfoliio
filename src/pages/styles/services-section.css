@@ -1,0 +1,34 @@
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Sofia", sans-serif;
+    margin: 10px;
+}
+#mycards{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+}
+.card1 button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #00539cff;
+    color: #ffd662ff;
+    border: 1px solid #00539cff;
+    border-radius: 10px;
+}
+.card1 button:hover{
+    color: #00539cff;
+    background-color: white;
+}

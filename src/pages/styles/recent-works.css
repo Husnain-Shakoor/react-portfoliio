@@ -1,0 +1,35 @@
+.resContainer{
+    display: flex;
+}
+.responsive-section{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 10px;
+    margin-top: 1.5rem;
+}
+.responsive-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 10px;  
+    font-weight: 200;
+    padding: 10px;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.responsive-section-content button{
+        width: 100px;
+        height: 40px;
+        border: none;
+        background-color: #00539cff;
+        color: #ffd662ff;
+        border: 1px solid #00539cff;
+        border-radius: 10px;
+}
+
+.responsive-section-content button:hover{
+    color: #00539cff;
+    background-color: white;
+}

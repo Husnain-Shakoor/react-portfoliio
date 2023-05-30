@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.button-page{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffd662ff;
+    color: #00539cff;
+    height: 110vh;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name h1{
+    font-family: "Sofia", sans-serif;
+    font-size: 50px;
+    margin: 10px;
+}
+.visit-button button{
+    font-family: "Sofia", sans-serif;
+    font-size: 24px;
+    border: none;
+    background-color: #00539cff;
+    color: #ffd662ff;
+    border: 2px solid #00539cff;
+    border-radius: 10px;
+}
+.visit-button button:hover{
+    color: #00539cff;
+    background-color: #ffd662ff;
+}
+.svg{
+    margin-top: 2rem;
+}

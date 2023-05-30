@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#MainContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 10%;
+    border: 1px solid #ffd662ff;
+}
+#homepage-sidebar{
+    display: flex;
+    list-style: none;
+    background-color: black;
+    float: right;
+}
+#homepage-sidebar li{
+    margin: 10px;
+    padding: 10px;
+    font-size: 35px;
+    color: #00539cff;
+} 
+#homepage-sidebar li:hover{
+    color: #ffd662ff;
+    transition: all 0.3s ease-out;
+}
+.sidebar-exit{
+    color: #ffd662ff;
+}
+
+.Logo{ 
+    display: block;
+    width: 150px;
+    color: #ffd662ff;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    font-family: "Sofia", sans-serif;
+    font-weight: 700;
+    margin: 10px;
+    background-color: none;  
+}
+.exit-button{
+    margin: 10px;
+    padding: 10px;
+    font-size: 35px;
+    color: #ffd662ff;
+}

@@ -1,0 +1,18 @@
+.myForm{
+    position: absolute;
+    width: 50%;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border: 2px double #00539cff;
+    border-style: inset;
+    padding: 10px;
+    top: 300px;
+    left: 400px;
+
+}
+.form-sizing{
+    width: 90%;
+    background-color: black;
+}
